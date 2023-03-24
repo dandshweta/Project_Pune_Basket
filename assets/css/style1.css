@@ -1,10 +1,10 @@
 .product_add_container {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
   }
   
-  .product_add_container .tooltiptext {
+  /* .product_add_container .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -13,13 +13,45 @@
     border-radius: 6px;
     padding: 5px 0;
     
-    /* Position the tooltip */
+    
     position: absolute;
     z-index: 1;
     top: 100%;
     left: 50%;
     margin-left: -60px;
   }
+ */
+
+
+  .product_add_container .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .product_add_container .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+
+
+
   
   .product_add_container:hover .tooltiptext {
     visibility: visible;

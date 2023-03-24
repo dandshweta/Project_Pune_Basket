@@ -22,12 +22,14 @@ font-family: 'Roboto Flex', sans-serif;
 .upper-navbar{
   display: flex;
   gap:5px;
+  align-items: center;
+    justify-content: center;
 }
 .left-upper-navbar{
   display: flex;
   align-items: center;
   gap:5px;
-  margin-left: 108px;
+  /* margin-left: 108px; */
   
 }
 .left_side-left-upper-navbar{
@@ -120,10 +122,12 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .lower-navbar{
   display:flex;
+  align-items: center;
+    justify-content: center;
 }
 .left-lower-navbar{
   display: flex;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 .text-left-lower-navbar{
   color: white;
@@ -194,8 +198,8 @@ font-family: 'Roboto Flex', sans-serif;
 
 }
 .list_header-bottom-second-block{
-  background-color: #9E9E9E;
-  color: black;
+  background-color: #878181;
+  color: white;
     padding: 5px;
     height: 38px;
     border-radius: 10px;
