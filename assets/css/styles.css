@@ -218,7 +218,7 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .footer-flex{
   display:flex;
-  gap:352px;
+  gap:177px;
   justify-content: center;
   /* align-items: center; */
   color: white;
@@ -230,6 +230,16 @@ margin:20px 40px 0px 40px;
 }
 .footer-lists{
   list-style-type: none;
+}
+.footer_pune_basket_icons_conatiner{
+  display: flex;
+  gap:10px;
+}
+.website-info1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
 }
 .my_smart_basket_container{
   border-radius: 26px;
